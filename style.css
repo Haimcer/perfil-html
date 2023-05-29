@@ -34,6 +34,8 @@
 
 
 .nome{
+  margin-top: 2vw;
+    font-size: 4vw;
     color: white;
 }
 
@@ -55,8 +57,8 @@ header{
     align-items: center;
 }
 .foto{
-    width: 35vw;
-    height: 35vw;
+    width: 13vw;
+    height: 13vw;
     border-radius: 50%;
     object-fit: cover;
     border: 5px solid rgba(37, 37, 37, 1);
@@ -66,8 +68,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 36vw;
-  height: 36vw;
+  width: 14vw;
+  height: 14vw;
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid white
@@ -88,9 +90,12 @@ header{
     padding: 1vw 1vw 1vw 1vw;
   }
   .redeSocial a{
+    width: 3vw;
+    height: 3vw;
     padding: 1vw 1vw 1vw 1vw;
     display: flex;
     align-items: center;
+    justify-content: center;
     border: 2px solid white;
     text-decoration: none;
     border-radius: 50%;
@@ -99,8 +104,8 @@ header{
 
   .icon {
     padding: 1px 1px 1px 1px;
-    height: 5vw;
-    width: 5vw;
+    height: 1.8vw;
+    width: 1.8vw;
     filter: invert(1);
   }
 
@@ -130,7 +135,7 @@ header{
     flex-direction: column;
     padding-top: 6%;
     color: white;
-    font-size: 160%;
+    font-size: 3vw;
     font-weight: 900;
     padding-bottom: 0.5%;
     text-align: center;
@@ -158,6 +163,7 @@ header{
 
 #interesses h2 {
   text-align: start;
+  font-size: 2vw;
 }
 #interesses h4 {
 font-size: 1.2vw;
@@ -195,6 +201,7 @@ justify-content: start;
   flex-direction: column;
   align-items: start;
   color: white;
+  font-size: 1.2vw;
 }
 
 #container-info{
@@ -240,25 +247,31 @@ justify-content: start;
 #imagensCompetencias{
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: center;
       flex-wrap: wrap;
+      width: 60vw;
 }
 #imagensCompetencias div{
-  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
   border-radius: 8px;
   background-color: #4C5359;
   width: 13%;
+  height: 40%;
   text-align: center;
   margin-top: 3%;
+  margin-left: 1vw;
 }
 #imagensCompetencias h4{
-  font-size: 1.2vw;
+  font-size: 1.0vw;
 }
 .iconCompetencia{
-  padding: 3px;
-  height: 10vh;
-  width: 10vh;
+  padding: 3px 3px 3px 3px;
+  height: 5vw;
+  width: 5vw;
   filter: invert(1);
 }
 
